@@ -1,6 +1,6 @@
 # Variables
 SHARP_VERSION=$(npm show sharp version)
-NODE_VERSION=10.16.3
+NODE_VERSION=14.16.3
 SHARP_DIRECTORY=sharp-$SHARP_VERSION
 TARBALL=sharp-$SHARP_VERSION-aws-lambda-linux-x64-node-$NODE_VERSION.zip
 
