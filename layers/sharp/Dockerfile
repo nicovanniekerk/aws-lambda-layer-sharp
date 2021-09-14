@@ -12,8 +12,10 @@ RUN yum -y install nodejs
 FROM baseBox as sharpLayerBox
 
 COPY . .
+COPY build.sh /build.sh
+RUN ["ls", "-la"]
 RUN ["chmod", "+x", "build.sh"]
-CMD ["sh", "build.sh"]
+CMD ["sh", "/build.sh"]
 ####################
 ## SHARP LAYER BOX ##
 ####################

@@ -17,6 +17,7 @@ npm install --production --prefix ./nodejs sharp@$SHARP_VERSION
 # tarball the resulting node_modules
 zip -r $TARBALL nodejs
 
+
 mv $TARBALL out
 
 # Clean up
